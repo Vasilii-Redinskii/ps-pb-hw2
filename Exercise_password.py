@@ -1,13 +1,13 @@
-password = input('Введите пароль: ')
-result = 0
-number = 1
+pw = input("Введите ваш новый пароль: ")
 
 try:
-    result = number/len(password)
-    result = int(password)
-    print('Ваш пароль состоит только из цифр')
+    pw1 = 5/len(pw)
+    pw1 = int(pw)
+    print("Ваш пароль состоит только из цифр")
 except ZeroDivisionError:
-    print('Вы ввели пустой пароль')
+    print("Вы ввели пустой пароль")
 except ValueError:
-    print('Требования к паролю соблюдены')
- 
+    print("Требования к паролю соблюдены !!!")
+
+#print(pw)
+#print(len(pw))
